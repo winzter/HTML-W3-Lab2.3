@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border:1px solid black;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>เข้าสู่ระบบ</h1>
+        <form action="Lab2_3-2.html">
+            <table>
+                <tr>
+                    <td><label for="username"><b>Username:</b></label></td>
+                    <td><input type="text" name="username" id="username" required autofocus></td>
+                </tr>
+                <tr>
+                    <td><label for="password"><b>Password:</b></label></td>
+                    <td><input type="password" name="password" id="password" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="number"><b>กรุณาพิมพ์ตัวเลขที่ปรากฏ:<br>1559</b></label>
+                        <br>
+                        <input type="text" name="number" id="number" required pattern="1559">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <button type="submit"><img src="./enter.png" alt="enter" width="30px"></button>
+        </form>
+    </div>
+</body>
+</html>
